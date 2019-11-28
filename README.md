@@ -70,6 +70,11 @@ Eureka集群:
                               127.0.0.1 eureka7002.com    
                               127.0.0.1 eureka7003.com
            
-           
-           
+Eureka比Zookeeper好在哪里
+zookeeper 保证的是CP(数据一致性)       Eureka  保证的是AP(高可用性)
+zookeeper集群 master节点宕机后,其他剩余存活点重写进行leader选举,整个过程需要30~120秒,期间整个注册服务瘫痪
+Eureka集群  各个节点平等无主次之分,某个节点宕机后,剩余节点依旧可以提供注册和查询服务
+  
+Ribbon:
+       是Netflix Ribbon实现的一套客户端  负载均衡工具
           

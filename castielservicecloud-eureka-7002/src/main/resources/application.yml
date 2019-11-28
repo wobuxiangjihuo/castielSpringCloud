@@ -1,6 +1,9 @@
 server:
   port: 7002
 
+
+
+
 eureka:
   instance:
     hostname: eureka7002.com  #eureka服务端的实例名称
@@ -12,4 +15,5 @@ eureka:
       #设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址（单机）。
       #对外提供暴露的地址 供注册者使用
       #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-      defaultZone: http://eureka7003.com:7003/eureka/,http://eureka7001.com:7001/eureka/
+       defaultZone: http://eureka7003.com:7003/eureka/,http://eureka7001.com:7001/eureka/
+
