@@ -83,4 +83,5 @@ Feign:
 Ribbon与Feign的区别:
                    Ribbon可以自定义重写负载均衡算法,
                    Feign集成了Ribbon,默认使用Ribbon轮询负载均衡算法。
+                   Ribbon需要自己构建http请求，模拟http请求然后使用RestTemplate发送给其他服务，步骤相当繁琐
                    Feign只需要定义服务绑定接口且以声明式的方法,实现了微服务调用
