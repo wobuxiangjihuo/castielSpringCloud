@@ -17,6 +17,11 @@ public class ConfigBean
         return new RestTemplate();
     }
 
+    @Bean
+    public IRule myRule()
+    {
+        return new RandomRule();
+    }
 
 
 }

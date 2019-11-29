@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -17,6 +18,7 @@ public class DeptController_Consumer
 
      @Autowired
      private RestTemplate restTemplate;
+     List list =new ArrayList();
 
      @RequestMapping("/consumer/dept/add")
      public boolean add(Dept dept)
