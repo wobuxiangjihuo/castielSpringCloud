@@ -79,7 +79,7 @@ Ribbon:
        是Netflix Ribbon实现的一套客户端  负载均衡工具
 Feign:  
        是在Ribbon的基础上进行了一次改进，采用接口的方式，将需要调用的其他服务的方法定义成抽象方法即可，      
-       
+
 Ribbon与Feign的区别:
        Ribbon可以自定义重写负载均衡算法,
        Feign集成了Ribbon,默认使用Ribbon轮询负载均衡算法。
