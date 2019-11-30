@@ -10,7 +10,7 @@ import java.io.Serializable;
 @Data
 @AllArgsConstructor //全参构造子
 @NoArgsConstructor  //无参构造子
-/*@Accessors(chain = true)*/
+@Accessors(chain = true) // set操作返回对象本身,支持链式操作
 public class Dept implements Serializable
 {
     private Long deptNo;   //主键

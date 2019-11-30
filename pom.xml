@@ -16,6 +16,10 @@
         <module>castielservicecloud-eureka-7003</module>
         <module>castielservicecloud-provider-dept-8002</module>
         <module>castielservicecloud-provider-dept-8003</module>
+        <module>castielservicecloud-consumer-dept-feign</module>
+        <module>castielservice-provider-dept-hystrlx-8001</module>
+        <module>castielservice-provider-dept-hystrlx-8001</module>
+        <module>castielservice-provider-dept-hystrlx-8011</module>
     </modules>
 
     <packaging>pom</packaging>
