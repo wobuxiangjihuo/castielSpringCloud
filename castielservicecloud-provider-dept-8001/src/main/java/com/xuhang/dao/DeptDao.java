@@ -1,6 +1,7 @@
 package com.xuhang.dao;
 
-import entity.Dept;
+
+import com.xuhang.springcloud.entity.Dept;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

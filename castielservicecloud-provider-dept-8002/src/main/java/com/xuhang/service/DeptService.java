@@ -1,6 +1,7 @@
 package com.xuhang.service;
 
-import entity.Dept;
+
+import com.xuhang.springcloud.entity.Dept;
 
 import java.util.List;
 
