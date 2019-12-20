@@ -111,4 +111,9 @@ HystrixDashboard 服务监控:
 被监控地址: http://localhost:8011/hystrix.stream
 
 
+zuul:过滤 、路由
+zuul先进去eureka注册,查询其他微服务名字
        
+SpringCloudConfig:分布式配置中心
+为微服务架构提供集中化的外部配置支持, 配置服务器为各个不同微服务应用的所有环境提供了一个中心化的外部配置       
+特点:动态部署配置 服务配置发生变化不需要重启即可完成切换

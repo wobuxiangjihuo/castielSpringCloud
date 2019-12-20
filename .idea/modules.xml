@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/castielSpringCloud.iml" filepath="$PROJECT_DIR$/.idea/castielSpringCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/castielservicecloud-api/castielservicecloud-api.iml" filepath="$PROJECT_DIR$/castielservicecloud-api/castielservicecloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/castielservicecloud-config-3344/castielservicecloud-config-3344.iml" filepath="$PROJECT_DIR$/castielservicecloud-config-3344/castielservicecloud-config-3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/castielservicecloud-consumer-dept-80/castielservicecloud-consumer-dept-80.iml" filepath="$PROJECT_DIR$/castielservicecloud-consumer-dept-80/castielservicecloud-consumer-dept-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/castielservicecloud-consumer-dept-feign/castielservicecloud-consumer-dept-feign.iml" filepath="$PROJECT_DIR$/castielservicecloud-consumer-dept-feign/castielservicecloud-consumer-dept-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/castielservicecloud-consumer-hystrix-Dashabord/castielservicecloud-consumer-hystrix-Dashabord.iml" filepath="$PROJECT_DIR$/castielservicecloud-consumer-hystrix-Dashabord/castielservicecloud-consumer-hystrix-Dashabord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/castielservicecloud-eureka-7001/castielservicecloud-eureka-7001.iml" filepath="$PROJECT_DIR$/castielservicecloud-eureka-7001/castielservicecloud-eureka-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/castielservicecloud-eureka-7002/castielservicecloud-eureka-7002.iml" filepath="$PROJECT_DIR$/castielservicecloud-eureka-7002/castielservicecloud-eureka-7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/castielservicecloud-eureka-7003/castielservicecloud-eureka-7003.iml" filepath="$PROJECT_DIR$/castielservicecloud-eureka-7003/castielservicecloud-eureka-7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/castielservicecloud-gateway-9527/castielservicecloud-gateway-9527.iml" filepath="$PROJECT_DIR$/castielservicecloud-gateway-9527/castielservicecloud-gateway-9527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/castielservicecloud-provider-dept-8001/castielservicecloud-provider-dept-8001.iml" filepath="$PROJECT_DIR$/castielservicecloud-provider-dept-8001/castielservicecloud-provider-dept-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/castielservicecloud-provider-dept-8002/castielservicecloud-provider-dept-8002.iml" filepath="$PROJECT_DIR$/castielservicecloud-provider-dept-8002/castielservicecloud-provider-dept-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/castielservicecloud-provider-dept-8003/castielservicecloud-provider-dept-8003.iml" filepath="$PROJECT_DIR$/castielservicecloud-provider-dept-8003/castielservicecloud-provider-dept-8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/castielservicecloud-provider-dept-hystrlx-8011/castielservicecloud-provider-dept-hystrlx-8011.iml" filepath="$PROJECT_DIR$/castielservicecloud-provider-dept-hystrlx-8011/castielservicecloud-provider-dept-hystrlx-8011.iml" />
+    </modules>
+  </component>
+</project>

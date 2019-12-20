@@ -1,0 +1,11 @@
+.settings
+*.myumldata
+*.project
+*.springBeans
+*.classpath
+classes
+target
+.idea
+.iml
+*.idea
+*.iml

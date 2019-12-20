@@ -1,0 +1,28 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: castielservicecloud-zuul-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+
+
+zuul:
+  prefix: /atguigu                            //前缀
+  ignored-services: "*"                       //过滤哪些服务地址
+  routes:
+    mydept.serviceId: castielservicecloud-dept  //域名映射
+    mydept.path: /mydept/**
+
+info:
+  app.name: castiel-microcloud
+  company.name: www.xuhang.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

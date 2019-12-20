@@ -19,6 +19,8 @@
         <module>castielservicecloud-consumer-dept-feign</module>
         <module>castielservicecloud-provider-dept-hystrlx-8011</module>
         <module>castielservicecloud-consumer-hystrix-Dashabord</module>
+        <module>castielservicecloud-gateway-9527</module>
+        <module>castielservicecloud-config-3344</module>
     </modules>
 
     <packaging>pom</packaging>
